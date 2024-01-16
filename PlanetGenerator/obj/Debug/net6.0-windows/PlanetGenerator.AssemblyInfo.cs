@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlanetGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0a1bc8bd61b044fe3432690ce144f21c4dfea13")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlanetGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlanetGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

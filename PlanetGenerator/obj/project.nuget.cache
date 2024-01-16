@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uZTgMSwTgKZ/A6dKhcGVw2n4X72gRnqxHxkedgQcl4wS972ry8N6syTlrDrSxML7c2RMaOQA45YcwubDDU2y5A==",
+  "dgSpecHash": "SFNYuCJ+WZZDGHsfUVxFczd+3ljI/iil03J0MhM6zYXf7+7jKfvaTVq1BfwQs3iD0MydlrHkNHkEhGAyV79xCg==",
   "success": true,
-  "projectFilePath": "E:\\VersionControl\\PlanetGenerator\\PlanetGenerator\\PlanetGenerator.csproj",
+  "projectFilePath": "C:\\Users\\alexb\\OneDrive\\Documents\\GitHub\\PlanetGenerator\\PlanetGenerator\\PlanetGenerator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexb\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\alexb\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
@@ -124,11 +124,7 @@
     "C:\\Users\\alexb\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\alexb\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\alexb\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\alexb\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\alexb\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\alexb\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\alexb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\alexb\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+    "C:\\Users\\alexb\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

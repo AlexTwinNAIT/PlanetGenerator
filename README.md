@@ -151,6 +151,12 @@ and just like that we've rendered...
 
 **A red triangle.**
 
+## Generating a Sphere
+
+By using this [code](https://github.com/CartBlanche/MonoGame-Samples/blob/master/PerformanceMeasuring/Primitives/SpherePrimitive.cs) as a reference for my code, I have deduced that they've used... *math* to create the verticies for the circle. I'll try my best to re-write this to work for thsi program, as the current snippet uses some depricated methods.
+
+Before I do that though, I must create a utility class which is just initializes and simplifies the coding that we did in the test version.
+
 ## (sort of) Definitions
 
 ### Mesh
@@ -191,3 +197,4 @@ Commit names are references to Chris Christodoulou tracks.
 1. [Introduction to Computer Graphics, Harold Serrano](https://www.haroldserrano.com/blog/before-using-metal-computer-graphics-basics)
 2. [Vertex (Computer Graphics), Wikipedia](https://en.wikipedia.org/wiki/Vertex_(computer_graphics)) -- No references, take with grain of salt.
 3. [Vertex Buffer Object](https://relativity.net.au/gaming/java/VertexBufferObject.html)
+4. [Sphere Generation Code](https://github.com/CartBlanche/MonoGame-Samples/blob/master/PerformanceMeasuring/Primitives/SpherePrimitive.cs)

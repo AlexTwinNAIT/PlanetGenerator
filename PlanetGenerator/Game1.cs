@@ -14,7 +14,7 @@ namespace PlanetGenerator
         private VertexBuffer _vertexBuffer;
 
 
-
+        
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
