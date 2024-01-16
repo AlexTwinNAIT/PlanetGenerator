@@ -58,7 +58,7 @@ We go and set up the predefined vertices, right now it's just a triangle.
 
 We initialize the effect.
 
-We initialize the bugger by sending it information, such as how many vertices we have.
+We initialize the buffer by sending it information, such as how many vertices we have.
 
 ```cs
 protected override void Initialize()
