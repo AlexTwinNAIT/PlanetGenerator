@@ -96,15 +96,15 @@ We start by using `Matrix.CreatePersppectiveFieldOFView()` and defining the fiel
 
 The far viewplane is how far the camera can see, anything further than that and it won't be rendered. The near viewplane is how close an object can be without getting cut off.
 
-The reason we're doing this is because we must prioritize performance when programming visuals. by limiting the distance we can see, we limit the processing power used to render the camera's perspective.
+The reason we're doing this is because we must prioritize performance when programming visuals. by limiting the distance we can see we limit the processing power used to render the camera's perspective.
 
 The view is the origin of the camera, and it's sense of direction. *Think of it as the camera being set into a tri-pod.*
 
-Using `Matrix.CreateLookAt()`, we'll get information that the view can use to define the camera's position,  then it's direction (where it's facing) and lastly, the upwards direction, relative to the camera.
+Using `Matrix.CreateLookAt()`, we'll get information that the view can use to define the camera's position, then it's direction (where it's facing) and lastly, the upwards direction, relative to the camera.
 
 Finally we must define the world, and how the object should be drawn. *Think of it as the subject we're capturing with our camera.*
 
-Using `Matrix.Identity` we get the sort of deafault value. I'm still a bit unsure.
+Using `Matrix.Identity` we get the sort of default value. I'm still a bit unsure.
 
 Now we draw apply the effect passes and apply it. Then we draw the primitives/triangles 
 
