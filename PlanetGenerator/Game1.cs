@@ -26,23 +26,10 @@ namespace PlanetGenerator
         {
 
             //Setup verticies
-            _verts = new VertexPositionColor[3]
-            {
-                new VertexPositionColor(new Vector3(0.0f,1.0f,0.0f), Color.Red),
-                new VertexPositionColor(new Vector3(-1.0f,-1.0f,0.0f), Color.Red),
-                new VertexPositionColor(new Vector3(1.0f,-1.0f,0.0f), Color.Red)
-
-            };
+            
 
             // initialize the effect
-            _effect = new BasicEffect(GraphicsDevice);
-
-            //create our vertex buffer
-
-            _vertexBuffer = new VertexBuffer(GraphicsDevice, VertexPositionColor.VertexDeclaration, _verts.Length, BufferUsage.WriteOnly);
-
-            //set the vertices
-            _vertexBuffer.SetData(_verts);
+            
 
             base.Initialize();
         }
@@ -53,14 +40,14 @@ namespace PlanetGenerator
 
             // TODO: use this.Content to load your game content here
         }
-
+        float rot;
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
             // TODO: Add your update logic here
-
+            rot += 0.2f;
             base.Update(gameTime);
         }
 
@@ -84,7 +71,7 @@ namespace PlanetGenerator
 
             // world defines how the object should be drawn
 
-            _effect.World = Matrix.Identity;
+            _effect.World = Matrix.Identity + Matrix.CreateRotationY(rot);
             _effect.VertexColorEnabled = true;
 
             //going through each pass to apply it on the GPU
@@ -93,7 +80,7 @@ namespace PlanetGenerator
             {
                 pass.Apply();
 
-                GraphicsDevice.DrawUserPrimitives<VertexPositionColor>(PrimitiveType.TriangleList, _verts, 0, 1);
+                GraphicsDevice.DrawUserPrimitives(PrimitiveType.TriangleList, _verts, 0, 1);
             }
 
             base.Draw(gameTime);

@@ -155,7 +155,8 @@ and just like that we've rendered...
 
 By using this [code](https://github.com/CartBlanche/MonoGame-Samples/blob/master/PerformanceMeasuring/Primitives/SpherePrimitive.cs) as a reference for my code, I have deduced that they've used... *math* to create the verticies for the circle. I'll try my best to re-write this to work for thsi program, as the current snippet uses some depricated methods.
 
-Before I do that though, I must create a utility class which is just initializes and simplifies the coding that we did in the test version.
+Before I do that though, I must create an abstract class that the 3d objects will inherit from.
+
 
 ## (sort of) Definitions
 
